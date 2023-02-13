@@ -1,1 +1,1 @@
-write your sql statement in a single line in the problem1.sql file.
+CREATE TABLE IF NOT EXISTS song(title varchar(255) UNIQUE NOT NULL, artist varchar(255) UNIQUE NOT NULL);
